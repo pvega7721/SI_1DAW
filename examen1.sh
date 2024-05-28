@@ -9,6 +9,6 @@ potencia=$(( $1**$2 ))
 echo "El resultado del primer parámetro elevado al segundo es: " $potencia
 echo "El conjunto de todos los parametros: "$*
 echo "Me has pasado un total de " $# " parámetros"
-echo "El parámetro 0 es: " $0
+echo "El nombre del archivo es: " $0
 
 echo "El parámetro 1 es: " $1 ", El parámetro 2 es: " $2 ", El parámetro 3 es: " $3 ", El parámetro 4 es:" $4 ", El parámetro 5 es: "$5
